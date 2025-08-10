@@ -36,26 +36,23 @@ const HomeCard = ({ post }) => {
     }
   };
   return (
-    <div className="relative w-1/4 border p-3 rounded-md bg-gray-50 mx-5">
-      <div className="font-bold text-xl">{post?.title}</div>
+    <div className="relative max-w-xl w-full sm:w-100 border p-5 rounded-md bg-white shadow-lg mx-3 hover:shadow-[0_0_15px_4px_rgba(99,102,241,0.6)] transition-shadow duration-300">
+      <div className="font-bold text-xl mb-2">{post?.title}</div>
       <div className="text-gray-700 text-sm">{post?.description}</div>
-      <div className="flex items-center justify-between mt-4">
-        <span className="text-xs text-gray-500">{post?.user}</span>
-        <span className="text-xs text-gray-500">
-          {post?.date?.substring(0, 10)}
-        </span>
+      <div className="flex items-center justify-between mt-4 text-xs text-gray-500">
+        <span>{post?.user}</span>
+        <span>{post?.date?.substring(0, 10)}</span>
       </div>
       <div className="absolute -top-3 -right-3 flex items-center space-x-3">
         {/* <AiOutlineDelete
-          onClick={() => deletePost(post._id)}
-          size={22}
-          className="bg-red-500 rounded-full text-white p-1 cursor-pointer"
-        /> */}
-
+      onClick={() => deletePost(post._id)}
+      size={22}
+      className="bg-red-500 rounded-full text-white p-1 cursor-pointer"
+    /> */}
         <FcLike
           onClick={() => likePost(post._id)}
           size={22}
-          className="bg-white-500 rounded-full text-white p-1 cursor-pointer"
+          className="bg-white rounded-full text-red-500 p-1 cursor-pointer"
         />
         <span className="text-gray-700 font-medium">{post?.like}</span>
       </div>
