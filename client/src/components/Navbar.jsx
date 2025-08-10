@@ -37,11 +37,13 @@ const Navbar = () => {
         >
           Post Oluştur
         </div>
-        <BiLogOut
-          onClick={logoutFunc}
-          size={25}
-          className="text-white cursor-pointer"
-        />
+        {token?.token && (
+          <BiLogOut
+            onClick={logoutFunc}
+            size={25}
+            className="text-white cursor-pointer"
+          />
+        )}
       </div>
     </div>
   );

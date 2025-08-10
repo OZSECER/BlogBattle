@@ -24,7 +24,7 @@ export const loginAction = (authData) => async (dispatch) => {
 
     dispatch({ type: "LOGIN", payload: data });
 
-    window.location = "/";
+    window.location = "/home";
   } catch (error) {
     toast(error.response?.data?.msg || "Giriş yaparken bir hata oluştu.", {
       position: "top-right",
