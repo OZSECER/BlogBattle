@@ -38,7 +38,7 @@ const Modal = () => {
           className="flex items-center justify-between cursor-pointer"
         >
           <h1 className="font-bold text-2xl">
-            {modal?.updateId ? "POST GÜNCELLE" : "POST PAYLAŞ"}
+            {modal?.updateId ? "BLOG GÜNCELLE" : "BLOG PAYLAŞ"}
           </h1>
           <AiOutlineClose size={25} />
         </div>

@@ -41,7 +41,7 @@ const Navbar = () => {
           onClick={openModal}
           className="w-36 border border-indigo-900 p-2 rounded-md text-center text-white cursor-pointer bg-indigo-700 hover:bg-pink-500 hover:scale-105 transform transition duration-300 shadow-md"
         >
-          🚀 Post Oluştur
+          🚀 Blog Oluştur
         </div>
         {token?.token && (
           <BiLogOut
