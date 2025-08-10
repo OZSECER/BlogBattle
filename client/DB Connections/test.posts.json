@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "6894fd66a3962135e943f448"
+  },
+  "user": "Senanur Özseçer",
+  "title": "Blog Nasıl Yazılır?",
+  "description": "Bir blog açtığınızda en sevdiğiniz konuları derinlemesine inceleme, uzmanlığınızı vurgulama ve çalışmalarınızla ilgilenen okuyuculardan oluşan bir topluluk oluşturma imkanına sahip olursunuz. Blogunuzu sıfırdan da açsanız, blog yazılarını işletme stratejinizin bir parçası haline de getirseniz; internette içerik yayınlamak, bilgilerinizi ve fikirlerinizi dünyayla paylaşmanın etkili bir yolu.",
+  "date": {
+    "$date": "2025-08-07T13:23:58.470Z"
+  },
+  "__v": 0,
+  "like": 2
+},
+{
+  "_id": {
+    "$oid": "6897c2b92529b38ae9303a90"
+  },
+  "user": "Enes Yıldırım",
+  "title": "Türk Tarihine Kısa Bir Yolculuk",
+  "description": "Türkler, tarih sahnesine Orta Asya’nın geniş bozkırlarında çıktı. At üstünde cesur savaşçılar olarak bilindiler. İlk büyük devletleri Asya Hunları, güçlerini çevreye duyurdu.6.yüzyılda Göktürkler, “Türk” adını taşıyan ilk devlet oldu. Orhun Yazıtlarıyla tarih yazmaya başladılar.  1071 Malazgirt Zaferiyle Anadolu kapıları Türklere açıldı. Burada Selçuklular ve ardından Osmanlılar büyük imparatorluklar kurdu. Osmanlı, üç kıtada hüküm sürdü, dünya tarihine yön verdi.  1923’te Cumhuriyet kuruldu. Atatürk’ün liderliğinde Türkiye modernleşti, çağdaş bir devlet oldu.  Türk tarihi; cesaret, kültür ve yenilikle dolu bir miras.",
+  "date": {
+    "$date": "2025-08-09T21:08:39.480Z"
+  },
+  "like": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897c3342529b38ae9303a92"
+  },
+  "user": "Ahmet Toprak",
+  "title": "İslam Dini: Barış ve İmanın Yolu",
+  "description": "İslam, 7. yüzyılda Arap Yarımadası’nda Hz. Muhammed’in peygamberliği ile doğdu. “İslam” kelimesi, teslimiyet ve barış anlamına gelir.  Müslümanlar, Allah’ın tek olduğuna inanır ve O’na kulluk eder. Kuran-ı Kerim, İslam’ın kutsal kitabıdır; yaşam rehberi olarak kabul edilir.  İslam’ın beş temel şartı vardır: Kelime-i Şehadet (imanın ifadesi), namaz, oruç, zekat ve hac. Bu ibadetler, müminin Allah’a olan bağlılığını gösterir.  Dünya genelinde yaklaşık 1.9 milyar insan İslam’ı yaşar. İslam, barış, adalet ve kardeşlik mesajlarıyla insanlığa ışık tutar.",
+  "date": {
+    "$date": "2025-08-09T21:08:39.480Z"
+  },
+  "like": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897c4372529b38ae9303a94"
+  },
+  "user": "Tomris Kılıç",
+  "title": "İskitler: Bozkırların Efsanevi Savaşçıları",
+  "description": "İskitler, MÖ 8. yüzyıldan itibaren Orta Asya ve Karadeniz çevresinde yaşayan göçebe bir Türk-İran halkıdır. Atlı savaşçılarıyla tarihe damga vurmuşlardır.  Sanatları, özellikle altın işlemeciliği, dünya kültür mirasında önemli yer tutar. İskitler, güçlü orduları ve özgür yaşam tarzlarıyla tanınır.  Persler ve Yunanlar gibi medeniyetlerle ilişkileri, kültürel alışverişi artırdı. Bozkırın cesur ve özgür ruhunu temsil eden İskitler, tarihin unutulmaz halklarındandır.",
+  "date": {
+    "$date": "2025-08-09T21:08:39.480Z"
+  },
+  "like": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897c4ba2529b38ae9303a96"
+  },
+  "user": "Nezaket Seçer",
+  "title": "Türk Mutfağı: Binlerce Yıllık Lezzet Hazinesi",
+  "description": "Türk mutfağı, tarih boyunca farklı kültürlerin birleşimiyle zenginleşmiş bir lezzet dünyasıdır. Anadolu’nun bereketli topraklarından Osmanlı saray sofralarına uzanan köklü bir geçmişi vardır.  Kebaplar, börekler, mezeler ve tatlılar; her biri özenle hazırlanır ve nesilden nesile aktarılır. Özellikle baklava, mantı ve Türk kahvesi dünya çapında tanınır.  Türk mutfağı, sadece yemek değil, aynı zamanda misafirperverliğin, paylaşmanın ve kültürel birikimin simgesidir. Sofralar, dostlukların kurulduğu, anıların paylaşıldığı yerlerdir.",
+  "date": {
+    "$date": "2025-08-09T21:08:39.480Z"
+  },
+  "like": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897c69c2529b38ae9303a98"
+  },
+  "user": "Nur Öz",
+  "title": "Yapay Zeka Yazılım Geliştirmeyi Nasıl Değiştiriyor?",
+  "description": "Yapay zeka, yazılım geliştirme süreçlerini hızlandırıyor ve kolaylaştırıyor. Geliştiriciler, doğal dilde kod önerileri alarak daha verimli çalışıyor. Örneğin, GitHub Copilot gibi araçlar kod tamamlama ve hata öncesi uyarılar sunuyor.Yapay zeka test süreçlerinde de akıllı analizler yaparak hataların daha hızlı bulunmasını sağlıyor ve güvenlik açıklarını tespit ediyor. Böylece yazılımlar daha sağlam ve güvenli hale geliyor.  Elbette otomasyonun iş gücü ve etik etkileri tartışılıyor, ancak yapay zeka ve insan iş birliği yazılımda yeni bir dönemi başlatıyor. Gelecekte bu teknolojilerin daha da yaygınlaşması bekleniyor.",
+  "date": {
+    "$date": "2025-08-09T21:08:39.480Z"
+  },
+  "like": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897c7472529b38ae9303a9a"
+  },
+  "user": "Agah Beyoğlu",
+  "title": "Şahsiyet: Kişiliğin ve Değerlerin Bütünlüğü",
+  "description": "Şahsiyet, bir insanın karakteri, değerleri ve davranışlarıyla ortaya çıkan özgün kimliğidir. Sadece dış görünüş ya da unvan değil, kişinin iç dünyasının ve ahlaki duruşunun yansımasıdır.  Gerçek şahsiyet, zorluklar karşısında nasıl davrandığımız, doğruluktan ve adaletten vazgeçmememizle şekillenir. Başkalarına saygı, dürüstlük ve sorumluluk sahibi olmak, sağlam bir şahsiyetin temel taşlarıdır.  Şahsiyet sahibi insanlar, çevresine ilham verir, güven oluşturur ve kalıcı ilişkiler kurar. Bu yüzden kişisel gelişim yolunda şahsiyetimizi sürekli geliştirmek, hayatın en değerli yolculuklarından biridir.",
+  "date": {
+    "$date": "2025-08-09T21:08:39.480Z"
+  },
+  "like": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897d636afd947212a6f7258"
+  },
+  "user": "Arın Celep",
+  "title": "Yazılım Sektörü: Sonsuz Olasılıkların Dünyası",
+  "description": "Yazılım sektörü bence çağımızın en heyecan verici alanlarından biri. Sadece bir meslek değil, aynı zamanda yaratıcı bir tutku ve sürekli öğrenme yolculuğu. Kod yazmak, benim için sadece teknik bir iş değil; aynı zamanda karmaşık sorunları çözmenin, hayalleri gerçeğe dönüştürmenin bir yolu.  Bu sektörde çalışırken, her gün yeni bir şeyler keşfetmek mümkün. Teknoloji öyle hızlı değişiyor ki, ayakta kalmak için kendini sürekli geliştirmek şart. Bu zorluk bazen yorucu olsa da, aynı zamanda motivasyon kaynağı. Çünkü yazılım dünyasında öğrendikçe ufkun genişliyor, yapabileceklerin artıyor.  Ayrıca, yazılım sayesinde sınırlar kalkıyor. Dünyanın bir ucundaki biriyle aynı projede çalışmak, farklı kültürlerden insanlarla fikir alışverişi yapmak mümkün oluyor. Bu da bana çok büyük bir esneklik ve özgürlük hissi veriyor.  Özetle, yazılım sektörü benim için sadece bir iş değil, hayata bakışımı şekillendiren, sürekli gelişen ve beni heyecanlandıran bir macera.",
+  "date": {
+    "$date": "2025-08-09T23:08:45.554Z"
+  },
+  "like": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897d6efafd947212a6f725c"
+  },
+  "user": "Hümeyra Toz",
+  "title": "Veri Bilimi: Gerçek Hayatın Gizli Hikayelerini Çözmek",
+  "description": "Benim için veri bilimi, adeta hayatın gizli kodlarını çözmek gibi. Büyük bir karmaşa gibi görünen sayılar ve bilgiler, doğru analizle anlamlı bir hikayeye dönüşüyor. İnsanların, şirketlerin ya da dünyamızın davranışlarını anlamak için veri bilimi inanılmaz bir araç.  Başlarda karmaşık algoritmalar, istatistik terimleri biraz gözümü korkutsa da, zamanla bu karmaşanın içinde yol almayı öğrendim. En sevdiğim kısmı, veriden bir şeyler ortaya çıkarabilmek; mesela bir problemin neden olduğunu anlamak ya da gelecekte ne olabileceğine dair tahmin yapmak.  Veri bilimi bana sadece teknik bir meslek değil, aynı zamanda dünyaya farklı bakmayı öğretti. Detaylara dikkat etmek, sabırlı olmak ve merak etmek bu işin olmazsa olmazları. Sonuçta veri, doğru yorumlandığında gerçek anlamda güç ve bilgi demek.  Eğer sen de dünyadaki karmaşayı anlamlandırmak ve hikayelerin peşine düşmek istiyorsan, veri bilimi tam sana göre bir alan.",
+  "date": {
+    "$date": "2025-08-09T23:08:45.554Z"
+  },
+  "like": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6897d7ccafd947212a6f725e"
+  },
+  "user": "Deva Demir",
+  "title": "Denetimli Makine Öğrenimi: Öğretirken Öğrenmek",
+  "description": "Denetimli makine öğrenimi benim için oldukça büyüleyici bir alan. Aslında bana, birine yeni bir şey öğretir gibi bilgisayara da nasıl karar vereceğini göstermek gibi geliyor. Verilen etiketli verilerle modelin öğrenip, daha önce görmediği veriler üzerinde doğru tahminler yapması bence çok tatmin edici.  Bu yöntemin gücü, özellikle iş hayatında ve günlük uygulamalarda ortaya çıkıyor. Mesela e-postaları spam olarak sınıflandırmak ya da müşteri davranışlarını tahmin etmek gibi işleri kolaylaştırıyor. Kendi deneyimimde, modelin doğru veri ve iyi bir eğitimle ne kadar başarılı olabileceğini görmek hep beni motive etti.  Tabii ki, denetimli öğrenmenin bazı zorlukları da var. Doğru ve kaliteli veri bulmak bazen en büyük engel oluyor. Çünkü model ne kadar iyi olursa olsun, yanlış veya eksik verilerle yanlış sonuçlar verebilir. Bu yüzden veri hazırlama süreci bana her zaman en kritik aşama gibi göründü.  Özetle, denetimli makine öğrenimi bana öğrenmenin ve öğretmenin dijital hali gibi geliyor; ne kadar doğru rehberlik yaparsan, sonuçlar o kadar etkileyici oluyor. Bu alanda çalışmak, hem sabır hem de merak gerektiriyor ama karşılığını fazlasıyla veriyor.",
+  "date": {
+    "$date": "2025-08-09T23:08:45.554Z"
+  },
+  "like": 5,
+  "__v": 0
+}]
