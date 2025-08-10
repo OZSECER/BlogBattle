@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className="h-20 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-between px-5 shadow-lg">
       <div
-        onClick={() => (window.location = "/home")}
+        onClick={() => (window.location = "/")}
         className="text-white font-bold text-2xl cursor-pointer hover:animate-bounce transition"
       >
         BLOG BATTLE

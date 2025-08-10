@@ -8,7 +8,7 @@ export const registerAction = (authData) => async (dispatch) => {
       authData
     );
 
-    dispatch({ type: "REGİSTER", payload: data });
+    dispatch({ type: "REGISTER", payload: data });
 
     window.location = "/";
   } catch (error) {
@@ -24,7 +24,7 @@ export const loginAction = (authData) => async (dispatch) => {
 
     dispatch({ type: "LOGIN", payload: data });
 
-    window.location = "/home";
+    window.location = "/";
   } catch (error) {
     toast(error.response?.data?.msg || "Giriş yaparken bir hata oluştu.", {
       position: "top-right",
