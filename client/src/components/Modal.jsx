@@ -5,8 +5,9 @@ import { createPostAction, updatePostAction } from "../redux/actions/post";
 import { toast } from "react-toastify";
 
 const Modal = () => {
+  const token = JSON.parse(localStorage.getItem("auth"));
   const [postData, setPostData] = useState({
-    user: "",
+    userId: token.user._id,
     title: "",
     description: "",
   });
@@ -43,14 +44,6 @@ const Modal = () => {
           <AiOutlineClose size={25} />
         </div>
         <div className="my-4 flex flex-col space-y-3">
-          <input
-            value={postData.user}
-            name="user"
-            onChange={onChangeFunc}
-            className="input-style"
-            type="text"
-            placeholder="User"
-          />
           <input
             value={postData.title}
             name="title"

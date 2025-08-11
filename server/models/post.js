@@ -2,10 +2,10 @@ const mongoose = require("mongoose");
 const { Int32 } = require("mongodb");
 
 const PostSchema = new mongoose.Schema({
-  user: {
-    type: String,
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Auth",
     required: true,
-    trim: true,
   },
   title: {
     type: String,

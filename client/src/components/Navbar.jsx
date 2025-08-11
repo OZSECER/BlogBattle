@@ -1,12 +1,11 @@
 import React from "react";
 import { BiLogOut } from "react-icons/bi";
 import { useDispatch } from "react-redux";
-import useToken from "C:/Users/senan/OneDrive/Masaüstü/Tarvina Projem/client/src/hooks/useToken";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const dispatch = useDispatch();
-  const [token] = useToken();
+  const token = JSON.parse(localStorage.getItem("auth"));
   const navigate = useNavigate();
 
   const logoutFunc = () => {

@@ -4,17 +4,16 @@ import { FcLike } from "react-icons/fc";
 import { useDispatch } from "react-redux";
 import { deletePostAction, updatePostAction } from "../redux/actions/post";
 import { toast } from "react-toastify";
-import useToken from "C:/Users/senan/OneDrive/Masaüstü/Tarvina Projem/client/src/hooks/useToken";
 import { useNavigate } from "react-router-dom";
 
 const HomeCard = ({ post }) => {
-  const [token] = useToken();
+  const token = JSON.parse(localStorage.getItem("auth"));
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const deletePost = (id) => {
     if (!token?.token) {
-      navigate("localhost:3000/Auth"); // login sayfasına yönlendir
+      navigate("localhost:3000/Auth");
       return;
     } else {
       dispatch(deletePostAction(id));
@@ -25,7 +24,6 @@ const HomeCard = ({ post }) => {
       window.location.reload();
     }
   };
-  // Like işlemi
   const likePost = (id) => {
     if (!token?.token) {
       navigate("/Auth");
