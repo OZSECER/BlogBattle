@@ -15,11 +15,9 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* {token?.token && <Navbar />} */}
         {<Navbar />}
         {modal && <Modal />}
         <Routes>
-          {/* <Route path="/" element={!token?.token ?  <Link to={'/auth'} /> : <Home />} /> */}
           <Route path="/" element={<Home />} />
           <Route path="/auth" element={<Auth />} />
         </Routes>

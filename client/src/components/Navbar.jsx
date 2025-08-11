@@ -26,7 +26,16 @@ const Navbar = () => {
     <div className="h-20 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-between px-5 shadow-lg">
       <div
         onClick={() => (window.location = "/")}
-        className="text-white font-bold text-2xl cursor-pointer hover:animate-bounce transition"
+        className="
+      bg-clip-text text-transparent 
+      bg-gradient-to-r from-pink-400 via-purple-300 to-indigo-400
+      font-extrabold text-3xl tracking-widest
+      cursor-pointer
+      hover:scale-110 hover:brightness-110
+      transition-transform duration-300 ease-in-out
+      drop-shadow-lg
+    "
+        style={{ userSelect: "none" }}
       >
         BLOG BATTLE
       </div>

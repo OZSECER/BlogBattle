@@ -32,38 +32,53 @@ const Modal = () => {
   };
 
   return (
-    <div className="w-full h-screen bg-opacity-50 bg-black fixed top-0 left-0 right-0 bottom-0 z-50 flex items-center justify-center">
-      <div className="bg-white w-1/3 p-2 rounded-md">
+    <div
+      className="w-full h-screen fixed top-0 left-0 right-0 bottom-0 z-50 flex items-center justify-center
+  bg-black bg-opacity-40 backdrop-blur-sm"
+    >
+      <div className="bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-600 w-1/3 p-6 rounded-xl shadow-2xl text-white">
         <div
           onClick={() => dispatch({ type: "MODAL", payload: false })}
-          className="flex items-center justify-between cursor-pointer"
+          className="flex items-center justify-between cursor-pointer mb-4"
         >
-          <h1 className="font-bold text-2xl">
+          <h1
+            className="font-extrabold text-3xl bg-clip-text text-transparent
+        bg-gradient-to-r from-yellow-300 via-red-400 to-pink-500"
+          >
             {modal?.updateId ? "BLOG GÜNCELLE" : "BLOG PAYLAŞ"}
           </h1>
-          <AiOutlineClose size={25} />
+          <AiOutlineClose
+            size={28}
+            className="text-white hover:text-yellow-300 transition-transform duration-300 hover:rotate-90"
+          />
         </div>
-        <div className="my-4 flex flex-col space-y-3">
+        <div className="my-6 flex flex-col space-y-5">
           <input
             value={postData.title}
             name="title"
             onChange={onChangeFunc}
-            className="input-style"
+            className="bg-white text-gray-800 rounded-md p-3 border-2 border-transparent
+          focus:outline-none focus:ring-4 focus:ring-pink-400 focus:border-pink-500
+          placeholder-gray-400 transition"
             type="text"
-            placeholder="Title"
+            placeholder="Başlık giriniz"
           />
           <input
             value={postData.description}
             name="description"
             onChange={onChangeFunc}
-            className="input-style"
+            className="bg-white text-gray-800 rounded-md p-3 border-2 border-transparent
+          focus:outline-none focus:ring-4 focus:ring-purple-400 focus:border-purple-500
+          placeholder-gray-400 transition"
             type="text"
-            placeholder="Description"
+            placeholder="Açıklama giriniz"
           />
         </div>
         <div
           onClick={postCreate}
-          className="w-full p-2 text-center bg-indigo-600 text-white cursor-pointer hover:bg-indigo-800"
+          className="w-full p-3 text-center bg-yellow-400 text-indigo-900 font-bold rounded-md
+        cursor-pointer hover:bg-yellow-300 shadow-lg hover:shadow-yellow-500/60
+        transition duration-300 select-none"
         >
           {modal?.updateId ? "Güncelle" : "Paylaş"}
         </div>

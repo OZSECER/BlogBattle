@@ -18,14 +18,12 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-100 via-pink-50 to-yellow-50 px-6 py-10">
       <section className="relative h-96 overflow-hidden flex flex-col items-center justify-center text-center py-20 px-6 mb-16 overflow-hidden rounded-lg shadow-xl">
-        {/* Arka plan animasyonu */}
         <div
           aria-hidden="true"
           className="absolute inset-0 animate-gradient bg-gradient-to-r from-pink-400 via-yellow-300 to-green-400"
           style={{ backgroundSize: "400% 400%" }}
         ></div>
 
-        {/* Yazılar */}
         <h1
           className="relative text-6xl sm:text-7xl tracking-wide"
           style={{
@@ -57,19 +55,6 @@ const Home = () => {
           yudumla ve yaratıcılığına yol ver ☕.
         </p>
       </section>
-
-      {/* Üst Başlık */}
-      {/* <div className="text-center mb-14">
-        <h1 className="text-5xl font-extrabold text-gray-800 drop-shadow-md">
-          ✨ Hoş Geldin, Blog Dünyasına!
-        </h1>
-        <p className="text-lg text-gray-600 mt-3 max-w-2xl mx-auto">
-          En popüler ve en yeni yazılar burada. Okurken ilham al, kahveni
-          yudumla ve yaratıcılığına yol ver ☕.
-        </p>
-      </div> */}
-
-      {/* Kartlar */}
       {posts.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
           {posts.map((post, i) => (

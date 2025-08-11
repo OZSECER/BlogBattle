@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
-    // tailwind.config.js içinde theme.extend altına ekle
+
     animation: {
       "flap-wings-smooth": "flapSmooth 3s ease-in-out infinite",
       "flap-wings-smooth-reverse": "flapSmooth 3s ease-in-out infinite reverse",

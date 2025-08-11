@@ -96,13 +96,11 @@ const Auth = () => {
 
   return (
     <div className="w-full h-screen bg-gradient-to-tr from-indigo-500 via-purple-600 to-pink-500 flex items-center justify-center fixed top-0 right-0 bottom-0 left-0 z-50">
-      {/* Sol üst uçan kitap */}
       <ElegantOpenBook
         className="absolute top-10 left-10 animate-flap-wings-smooth opacity-80 cursor-default"
         size={120}
       />
 
-      {/* Sağ alt uçan kitap */}
       <ElegantOpenBook
         className="absolute bottom-10 right-10 animate-flap-wings-smooth-reverse opacity-80 cursor-default"
         size={120}
