@@ -1,91 +1,70 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/OZSECER/BlogBattle?color=blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/OZSECER/BlogBattle?color=brightgreen)
-![License](https://img.shields.io/badge/license-MIT-orange)
-![React](https://img.shields.io/badge/Frontend-React.js-blue)
-![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+# Getting Started with Create React App
 
-# 📖 BlogBattle
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-BlogBattle, kullanıcıların blog yazılarını paylaşabildiği ve diğer yazılara beğeni (like) atabildiği full-stack bir web uygulamasıdır.  
-Kullanıcılar **giriş yapmadan** blog yazılarını okuyabilir; blog paylaşmak isteyenler kayıt/giriş ekranına yönlendirilir.  
-Her kullanıcı, aynı blog yazısına yalnızca **bir kez** beğeni atabilir.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 🚀 Özellikler
+### `npm start`
 
-- Kullanıcı kaydı ve giriş (JWT tabanlı kimlik doğrulama)
-- Blog yazısı ekleme, düzenleme, silme
-- Tüm blog yazılarını giriş yapmadan okuma
-- Blog paylaşmak istediğinde kayıt/giriş ekranına yönlendirme
-- Her kullanıcı tarafından bir yazıya yalnızca 1 kez like atabilme
-- Like sayılarının dinamik olarak güncellenmesi
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🛠️ Kullanılan Teknolojiler
+### `npm test`
 
-**Client (Frontend)**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- React.js
-- Redux Toolkit (state yönetimi)
-- Tailwind CSS (stil)
-- Axios (HTTP istekleri)
-- React Router DOM (sayfa yönlendirme)
+### `npm run build`
 
-**Server (Backend)**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Node.js & Express.js
-- MongoDB & Mongoose
-- JSON Web Token (JWT)
-- bcrypt.js (şifreleme)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Diğer**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Git & GitHub (versiyon kontrol)
-- Postman (API testi)
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 📦 Kurulum
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### 1️⃣ Depoyu Klonlayın
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-git clone https://github.com/kullaniciadi/BlogBattle.git
-cd BlogBattle
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
- Server Kurulumu
-cd server
-npm install
+## Learn More
 
-Server’ı başlatın:
-npm run dev
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Client Kurulumu
-Yeni bir terminal penceresi açın:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-cd client
-npm install
-npm start
+### Code Splitting
 
- Kullanım
-http://localhost:3000 adresine gidin.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Blog yazılarını üye olmadan okuyabilirsiniz.
+### Analyzing the Bundle Size
 
-Blog paylaşmak için kayıt olun veya giriş yapın.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Beğenmek istediğiniz yazının like butonuna tıklayın (her yazı için sadece bir kere).
+### Making a Progressive Web App
 
-Yeni blog ekleyip diğer kullanıcılarla paylaşın.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
- Notlar
-Like sistemi kullanıcı bazlıdır; bir kullanıcı aynı yazıya ikinci kez like atamaz.
+### Advanced Configuration
 
-Tüm veriler MongoDB veritabanında saklanır.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Kimlik doğrulama JWT token üzerinden yapılır.
+### Deployment
 
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
