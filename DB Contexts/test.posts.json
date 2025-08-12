@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "689a74030e8b6e114aa3ac64"
+  },
+  "userId": {
+    "$oid": "6897baf82529b38ae9303a8c"
+  },
+  "title": "Şahsiyet: Kişiliğin ve Değerlerin Bütünlüğü",
+  "description": "Şahsiyet, bir insanın karakteri, değerleri ve davranışlarıyla ortaya çıkan özgün kimliğidir. Sadece dış görünüş ya da unvan değil, kişinin iç dünyasının ve ahlaki duruşunun yansımasıdır.  Gerçek şahsiyet, zorluklar karşısında nasıl davrandığımız, doğruluktan ve adaletten vazgeçmememizle şekillenir. Başkalarına saygı, dürüstlük ve sorumluluk sahibi olmak, sağlam bir şahsiyetin temel taşlarıdır.  Şahsiyet sahibi insanlar, çevresine ilham verir, güven oluşturur ve kalıcı ilişkiler kurar. Bu yüzden kişisel gelişim yolunda şahsiyetimizi sürekli geliştirmek, hayatın en değerli yolculuklarından biridir.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a74bc0e8b6e114aa3ac68"
+  },
+  "userId": {
+    "$oid": "688a2940c7e4af75cb6fc415"
+  },
+  "title": "Yazılımda Agile Metodolojisi: Takımlar Nasıl Daha Verimli Çalışır?",
+  "description": "Agile, yazılım geliştirmede esnekliği ve hızla değişime uyumu ön planda tutan bir yöntemdir. Küçük ve sürekli teslimatlar yaparak ekiplerin hızlı geri bildirim almasını sağlar.  Takımlar, düzenli toplantılar ve işbirliğiyle sorunları çabuk çözer, böylece verimlilik artar. Müşteri ihtiyaçlarına anında cevap vermek, projenin başarısını yükseltir.  Agile sayesinde yazılım geliştirme süreçleri daha şeffaf, dinamik ve etkili hale gelir. Bu da hem ekip motivasyonunu hem de ürün kalitesini artırır.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a75570e8b6e114aa3ac71"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Yapay Zeka Yazılım Geliştirmeyi Nasıl Değiştiriyor?",
+  "description": "Yapay zeka, yazılım geliştirme süreçlerini hızlandırıyor ve kolaylaştırıyor. Geliştiriciler, doğal dilde kod önerileri alarak daha verimli çalışıyor. Örneğin, GitHub Copilot gibi araçlar kod tamamlama ve hata öncesi uyarılar sunuyor. Test süreçlerinde de akıllı analizler yaparak hataların daha hızlı bulunmasını sağlıyor ve güvenlik açıklarını tespit ediyor. Böylece yazılımlar daha sağlam ve güvenli hale geliyor.  Elbette otomasyonun iş gücü ve etik etkileri tartışılıyor, ancak  ve insan iş birliği yazılımda yeni bir dönemi başlatıyor. Gelecekte bu teknolojilerin daha da yaygınlaşması bekleniyor.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a75f00e8b6e114aa3ac78"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Denetimli Makine Öğrenimi: Öğretirken Öğrenmek",
+  "description": "Denetimli makine öğrenimi benim için oldukça büyüleyici bir alan. Aslında bana, birine yeni bir şey öğretir gibi bilgisayara da nasıl karar vereceğini göstermek gibi geliyor. Verilen etiketli verilerle modelin öğrenip, daha önce görmediği veriler üzerinde doğru tahminler yapması bence çok tatmin edici.  Bu yöntemin gücü, özellikle iş hayatında ve günlük uygulamalarda ortaya çıkıyor. Mesela e-postaları spam olarak sınıflandırmak ya da müşteri davranışlarını tahmin etmek gibi işleri kolaylaştırıyor. Kendi deneyimimde, modelin doğru veri ve iyi bir eğitimle ne kadar başarılı olabileceğini görmek hep beni motive etti.  Tabii ki, denetimli öğrenmenin bazı zorlukları da var. Doğru ve kaliteli veri bulmak bazen en büyük engel oluyor. Çünkü model ne kadar iyi olursa olsun, yanlış veya eksik verilerle yanlış sonuçlar verebilir. Bu yüzden veri hazırlama süreci bana her zaman en kritik aşama gibi göründü.  Özetle, denetimli makine öğrenimi bana öğrenmenin ve öğretmenin dijital hali gibi geliyor; ne kadar doğru rehberlik yaparsan, sonuçlar o kadar etkileyici oluyor. Bu alanda çalışmak, hem sabır hem de merak gerektiriyor ama karşılığını fazlasıyla veriyor.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a760e0e8b6e114aa3ac7a"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Veri Bilimi: Gerçek Hayatın Gizli Hikayelerini Çözmek",
+  "description": "Benim için veri bilimi, adeta hayatın gizli kodlarını çözmek gibi. Büyük bir karmaşa gibi görünen sayılar ve bilgiler, doğru analizle anlamlı bir hikayeye dönüşüyor. İnsanların, şirketlerin ya da dünyamızın davranışlarını anlamak için veri bilimi inanılmaz bir araç.  Başlarda karmaşık algoritmalar, istatistik terimleri biraz gözümü korkutsa da, zamanla bu karmaşanın içinde yol almayı öğrendim. En sevdiğim kısmı, veriden bir şeyler ortaya çıkarabilmek; mesela bir problemin neden olduğunu anlamak ya da gelecekte ne olabileceğine dair tahmin yapmak.  Veri bilimi bana sadece teknik bir meslek değil, aynı zamanda dünyaya farklı bakmayı öğretti. Detaylara dikkat etmek, sabırlı olmak ve merak etmek bu işin olmazsa olmazları. Sonuçta veri, doğru yorumlandığında gerçek anlamda güç ve bilgi demek.  Eğer sen de dünyadaki karmaşayı anlamlandırmak ve hikayelerin peşine düşmek istiyorsan, veri bilimi tam sana göre bir alan.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a76400e8b6e114aa3ac8b"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Yazılım Sektörü: Sonsuz Olasılıkların Dünyası",
+  "description": "Yazılım sektörü bence çağımızın en heyecan verici alanlarından biri. Sadece bir meslek değil, aynı zamanda yaratıcı bir tutku ve sürekli öğrenme yolculuğu. Kod yazmak, benim için sadece teknik bir iş değil; aynı zamanda karmaşık sorunları çözmenin, hayalleri gerçeğe dönüştürmenin bir yolu.  Bu sektörde çalışırken, her gün yeni bir şeyler keşfetmek mümkün. Teknoloji öyle hızlı değişiyor ki, ayakta kalmak için kendini sürekli geliştirmek şart. Bu zorluk bazen yorucu olsa da, aynı zamanda motivasyon kaynağı. Çünkü yazılım dünyasında öğrendikçe ufkun genişliyor, yapabileceklerin artıyor.  Ayrıca, yazılım sayesinde sınırlar kalkıyor. Dünyanın bir ucundaki biriyle aynı projede çalışmak, farklı kültürlerden insanlarla fikir alışverişi yapmak mümkün oluyor. Bu da bana çok büyük bir esneklik ve özgürlük hissi veriyor.  Özetle, yazılım sektörü benim için sadece bir iş değil, hayata bakışımı şekillendiren, sürekli gelişen ve beni heyecanlandıran bir macera. Eğer tutkuluysan ve öğrenmeye açıksan, bu alan sana da çok şey katacaktır.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a76cf0e8b6e114aa3ac8d"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Türk Tarihi: Zamanın Derinliklerinden Gelen Miras",
+  "description": "Türk tarihi, binlerce yıl öncesine uzanan köklü bir geçmişe sahip. Orta Asya bozkırlarında at sırtında başlayan yolculuk, sadece bir milletin değil, aynı zamanda bir kültürün ve yaşam tarzının da doğuşunu simgeliyor. Göçebe yaşamın getirdiği özgürlük, dayanıklılık ve disiplin; Türk kimliğinin temel taşları olmuş.  Göktürklerden Selçuklulara, Osmanlı’dan Cumhuriyet’e uzanan bu serüven, sürekli değişim ve uyum süreciyle şekillenmiş. Her dönem, kendi içinde büyük başarılar, zorluklar ve dersler barındırmış. Bence Türk tarihinin en dikkat çekici yanı, hem savaş meydanlarında hem de kültürel alanda derin izler bırakması.  Bugün elimizde kalan miras; dilimizde, geleneklerimizde, sanatımızda ve hatta gündelik hayatımızda hâlâ yaşıyor. Türk tarihi, sadece geçmişin hikâyesi değil; geleceğe yön veren güçlü bir rehber.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a77240e8b6e114aa3ac8f"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Türk Mutfağı: Lezzetin ve Kültürün Buluşma Noktası",
+  "description": "Türk mutfağı, bana göre sadece yemeklerden ibaret değil; aynı zamanda binlerce yıllık kültürün sofraya yansıyan hali. Orta Asya’nın et ve süt ağırlıklı yemek kültürü, Osmanlı’nın saray mutfağı ve Anadolu’nun bereketli toprakları birleşince ortaya inanılmaz bir çeşitlilik çıkmış.  Kebapların dumanı, baklavanın şerbeti, kahvenin mis gibi kokusu… Hepsi, bu toprakların misafirperverliğini ve sıcaklığını hissettiriyor. Her yörenin kendine özgü tatları var; Gaziantep’te baharatın dili başka, Karadeniz’de mısır ekmeğinin kokusu başka konuşuyor.  Benim için Türk mutfağının en özel yanı, sofraların bir buluşma noktası olması. İster bir aile yemeği olsun, ister dostlarla küçük bir çay saati… Yemek, bizde her zaman paylaşmak ve muhabbet demek.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a777b0e8b6e114aa3ac91"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Türk Mitolojisi: Bozkırın Efsaneleri",
+  "description": "Türk mitolojisi, benim gözümde bozkırın rüzgarını, atların nal sesini ve gökyüzünün sonsuzluğunu taşıyan bir hazine gibi. Atalarımızın inançları, doğa ile kurdukları bağ ve yaşam mücadeleleri, bu efsanelere derin bir ruh katmış.  Göktengri inancı, Umay Ana’nın koruyucu şefkati, Ergenekon’dan çıkış destanı… Hepsi, hem insanın doğa karşısındaki mücadelesini hem de umut ve yeniden doğuş temasını işliyor. Kurt, ejderha ve kutsal dağ gibi semboller, sadece hikâyelerde değil, Türk kültürünün ruhunda da yer bulmuş.  Bence Türk mitolojisinin en güzel yanı, hem köklü hem de yaşayan bir miras olması. Bugün bile edebiyatta, sanatta, hatta popüler kültürde bu efsanelerin izlerini görmek mümkün. Sanki geçmişten gelen bir fısıltı, hâlâ kulaklarımızda yankılanıyor.",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "689a77df0e8b6e114aa3ac93"
+  },
+  "userId": {
+    "$oid": "6897b9f32529b38ae9303a80"
+  },
+  "title": "Robotik Kodlama: Geleceği Şekillendiren Yaratıcılık",
+  "description": "Robotik kodlama, benim için teknolojinin ve yaratıcılığın buluştuğu en heyecan verici alanlardan biri. Bir yandan fiziksel dünyayı hareket ettiren robotları programlarken, diğer yandan hayal gücünü koda dökmek gerçekten büyüleyici bir deneyim.  Kod yazmak sadece ekranda gerçekleşen soyut bir işlem değil; robotik kodlama ile yazdığın satırlar, gerçek dünyada hareket eden, düşünen ve hatta çevresiyle etkileşim kurabilen bir canlıya dönüşüyor. Bu da bana her seferinde çocukluğumdaki oyun hamuruyla oynama heyecanını hatırlatıyor.  Robotik kodlama, problem çözme becerilerini geliştirmenin yanı sıra sabır ve takım çalışmasını da öğretiyor. Hata yaptığında robotun istediğin gibi hareket etmediğinde, pes etmek yerine nedenini anlamak ve çözmek gerekiyor. İşte bu süreç bana en çok öğretici gelen kısım.  Gelecekte robotların hayatımızda çok daha fazla yer alacağını düşünürsek, robotik kodlama öğrenmek sadece meslek değil, aynı zamanda geleceğe yapılan bir yatırım gibi geliyor bana. Eğer teknolojiye meraklıysan, kesinlikle denemen gereken bir alan!",
+  "date": {
+    "$date": "2025-08-11T22:11:47.282Z"
+  },
+  "like": 2,
+  "__v": 0
+}]
